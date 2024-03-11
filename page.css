@@ -1,0 +1,81 @@
+@font-face {  
+    font-family: AstroSpace;
+    src: url(fonts/AstroSpace-eZ2Bg.ttf) format("truetype");
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #042037;
+}
+
+h1 {
+    font-family: AstroSpace;
+    font-size: 60px;
+    text-align: center;
+    color: #74AE96;
+}
+
+nav {
+    background-color: #67989A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #042037;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #0D4A4D;
+}
+
+nav a:active {
+    color: #4891d1;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+section {
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+p {
+    color: #74AE96;
+}
+
+ul {
+    line-height: 50px;
+    /* Technology icon by Icons8 */
+    list-style-image: url('images/technology.png');
+}
+
+li a {
+    text-decoration: none;
+    color: #74AE96;
+}
+
+li a:hover {
+    color: #0D4A4D;
+}
+
+li a:active {
+    color: #4891d1;
+}
